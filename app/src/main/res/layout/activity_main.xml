@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/world"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Welcome to Traveleo!"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/buttontimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="timerbutton"
+        android:text="Timer"
+        android:textAllCaps="false"
+        android:textColor="@color/deeppurple"
+        android:background="@drawable/button_view"
+        android:layout_marginTop="80sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="250dp"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/mapsbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mapsbutton"
+        android:text="Map"
+        android:textAllCaps="false"
+        android:textColor="@color/deeppurple"
+        android:background="@drawable/button_view"
+        android:layout_marginTop="80sp"
+        android:layout_marginStart="260dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="notesbutton"
+        android:text="My Notes"
+        android:textAllCaps="false"
+        android:textColor="@color/deeppurple"
+        android:background="@drawable/button_view"
+        android:layout_marginTop="200sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="240dp"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/attractions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="attractionsbutton"
+        android:text="Attractions"
+        android:textAllCaps="false"
+        android:textColor="@color/deeppurple"
+        android:background="@drawable/button_view"
+        android:layout_marginTop="200sp"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/invite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="invitebutton"
+        android:textAllCaps="false"
+        android:textColor="@color/deeppurple"
+        android:background="@drawable/button_view"
+        android:text="Invite Your Friends!"
+        android:layout_marginTop="550sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="helpbutton"
+        android:textAllCaps="false"
+        android:textColor="@color/deeppurple"
+        android:background="@drawable/button_viewred"
+        android:text="Help (call 112)"
+        android:layout_marginTop="400sp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="supportbutton"
+        android:text="Contact with support"
+        android:layout_marginTop="650sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
